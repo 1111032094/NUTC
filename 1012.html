@@ -4,82 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Title here</title>
+    <title>Document</title>
     <style>
-        body {
-    position: relative;
-    width: 800px;
-    height: 600px;
-}
+        header{
+            background-color:orange ;
+            height: 20%; 
+            margin-bottom: 1%;}
 
-header,footer,nav,.content {
-    margin: 5px;
-}
+        nav{
+            background-color:deeppink; 
+            height: 5%; 
+            margin-bottom: 1%;}
 
-header,footer {
-    height: 100px;
-}
+        aside{
+            background-color:pink ; 
+            width: 24%; 
+            height: 55%; 
+            float: left;
+            margin-right: 1%; 
+            margin-bottom: 1%;}
 
-header {
-    background-color: orange;
-}
+        article{
+            background-color:deepskyblue; 
+            width: 75%; 
+            height: 55%; 
+            float: right;
+            margin-bottom: 1%;
+            position: relative;}
 
-nav {
-    background-color: deeppink;
-    height: 50px;
-}
+        section{
+            background-color:yellow;  
+            height: 33%;
+            margin: 1%; 
+            width: 98%;
+            position:absolute;
+            bottom:1%;}
 
-.content {
-    width: auto;
-    height: 350px;
-    display: flex;
-}
+        footer{background-color:darkseagreen;
+            height: 20%; 
+            clear:both;}
 
-.aside {
-    background-color: pink;
-    width: 200px;
-    height: 350px;
-    margin-right: 5px;
-}
-
-.article {
-    background-color: deepskyblue;
-    width: 600px;
-    height: 350px;
-    display: flex;
-
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.section {
-    background-color: yellow;
-    margin: 5px;
-    width: auto;
-    height: 100px;
-}
-footer {
-    background-color: darkseagreen;
-}
     </style>
 </head>
-<body style="width: 100%;display: flex;justify-content: center;">
-    <div>
-            <center>
-                <a href=https://1111032094.github.io/NUTC/ >回首頁 </a>
-            </center>
+<body>
+    <center>
+        <a href="index.html">回首頁</a>
+        
+        <div  style="width:800px ; height:600px; text-align: left ;">
             <header>header</header>
             <nav>nav</nav>
-            <div class="content">
-                <div class="aside">aside</div>
-                <div class="article">
-                    article
-                    <div class="section">section</div>
-                </div>
-            </div>
-            <footer>fooder</footer>       
-    </div>
+                <aside>aside</aside>
+                <article>article
+                    <section>section</section>
+                </article>
+            <footer>footer</footer>
+        </div>
+    </center>
 </body>
 </html>
